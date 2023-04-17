@@ -1,0 +1,178 @@
+/* reset */
+
+*/ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+body {
+    background-color: rgb(226, 194, 135);
+}
+
+
+
+header {
+    display: flex;
+    background-color: rgb(226, 194, 135);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.nav-link.color-menui {
+    display: inline-block;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+}
+
+header nav ul li a {
+    text-decoration:none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* estilos de index */
+
+main {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+
+.cont1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.imgppal {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 3px 5px rgb(15, 15, 15);
+}
+
+.imgvideo{
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    box-shadow: 0px 3px 5px rgb(15, 15, 15); 
+}
+
+
+.titulo {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px 0px;
+    font-size: 2rem;
+}
+
+.parrafo1 {
+
+    color: rgb(0, 0, 0);
+    justify-content: flex-start;
+    top: 100px;
+    right: 50px;
+}
+
+.parrafo2 {
+    color: rgb(0, 0, 0);
+    justify-content: flex-end;
+    top: 50px;
+    left: 10px;
+}
+
+
+/* proyectos */
+
+.parfproyecto {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+
+}
+
+.descripcion {
+    grid-column: 1;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: stretch;
+}
+
+div h2 section {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.titulos {
+    text-align: center;
+}
+
+.maps {
+    grid-column: 2;
+}
+
+.imgmaps {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 180px;
+
+}
+
+
+/* estilo de formulario */
+
+.legend1 {
+    text-align: center;
+}
+
+.input1 {
+    background-color: rgb(221, 221, 221);
+}
+
+.input2 {
+    background-color: gray;
+}
+
+.name1 {
+    display: block;
+}
+
+.apellido1 {
+    display: block;
+}
+
+.telefono1 {
+    display: block;
+}
+
+.cuadro1 {
+    display: flex;
+}
