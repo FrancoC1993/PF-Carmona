@@ -1,0 +1,87 @@
+/* contactos */
+
+.maincont {
+    display: grid;
+    grid-template-rows: 0fr 1fr 0.5fr 0fr;
+}
+
+.imgcontactoppal {
+    opacity: 80%;
+    background-size: cover;
+    width: $width;
+    height: auto;
+}
+
+.imglogocontacto {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+}
+
+.logos {
+    justify-self: center;
+    width:$width;
+    height: $width;
+    margin: 10% 70% 10% 10%;
+}
+
+/* estilo de formulario */
+.legend1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.fieldset1 {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.NombreApellidoTelefono {
+    display: block;
+    width: 1fr;
+    height: auto;
+}
+
+.input1 {
+    background-color: $colorcto;
+    grid-column: 2;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+
+.input2 {
+    background-color: $colorcto;
+    grid-column: 2;
+    display: flex;
+}
+
+.input3 {
+    background-color: gray;
+    width: $width1;
+    height: auto;
+    margin-top: 1%;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.name1 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    .apellido1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        .telefono1 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+/* actualidad */
+
+.mainact {
+    display: grid;
+    grid-template-rows: 5% 30% 30% 30%;
+    gap: 3rem;
+    padding-bottom: 100px;
+
+}
+
+.titulo1act {
+    color: $colorpfo;
+    text-align: start;
+}
+
+.contentflex1 {
+    background-image: url('../img/Actualidad1.jpg');
+    @include contenido();
+}
+
+.parraf1act {
+    color: $colorpfo;
+    @include alineacion();
+}
+
+.contentflex2 {
+    background-image: url('../img/Actualidad6.jpg');
+    @include contenido();
+}
+
+.parraf2act {
+    color: $colorpfo;
+    @include alineacion();
+}
+
+.contentflex3 {
+    background-image: url('../img/Actualidad4.jpg');
+    @include contenido();
+}
+
+.parraf3act {
+    color: $colorpfo;
+    @include alineacion();
+}

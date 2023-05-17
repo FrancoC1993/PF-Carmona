@@ -1,0 +1,89 @@
+/* Mixin index */
+
+@mixin contentstyle {
+    background-color: #505050;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-rows: 1fr;
+    width: $width;
+    height: $height;
+}
+
+@mixin titleppal {
+    text-align: center;
+    font-family: $fuentetitle;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    grid-column: 2;
+    color: $colortitle;
+}
+
+@mixin mainppal {
+    text-align: left;
+    padding: 1%;
+    margin: 1%;
+    border-top: 0.1rem solid #000;
+    padding-bottom: 100px;
+}
+
+@mixin parrfindx {
+    text-align: justify;
+    color: $colorpfo;
+    line-height: $espaciadom;
+}
+
+/* mixin sobre mi */
+
+@mixin parrfsm {
+    width: $width1;
+    height: $width;
+    font-size: large;
+    font-family: $fuentepfo;
+    text-align: justify;
+}
+
+@mixin imgsm {
+    width: $width1;
+    height: $height;
+}
+
+@mixin incatr {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: $width;
+    height: 33.33%;
+}
+
+/* Mixin actualidad */
+
+@mixin contenido {
+    background-color: rgb(80, 80, 80);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+@mixin alineacion {
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+@mixin Parrfproyecto {
+    color: whitesmoke;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-bottom: 2rem;
+}

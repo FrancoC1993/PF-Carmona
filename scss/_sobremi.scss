@@ -1,0 +1,64 @@
+/* sobre mi */
+
+.mainsm {
+    display: grid;
+    grid-template-rows: 5% 30% 30% 30%;
+    padding-bottom: 100px;
+
+}
+
+.tituloppal {
+    text-align: center;
+    border-bottom: 0.1rem solid #000;
+    grid-row: 1;
+}
+
+.titulosm1 {
+    text-align: start;
+}
+
+.titulosm2 {
+    text-align: end;
+}
+
+.inicios {
+    flex-grow: 1;
+    grid-row: 2;
+    @include incatr();
+}
+
+.parrf1sm {
+    @include parrfsm();
+}
+
+.img1 {
+    @include imgsm();
+}
+
+.carrera {
+    flex-grow: 1;
+    grid-row: 3;
+    @include incatr();
+}
+
+.parrf2sm {
+    @include parrfsm();
+}
+
+.img2 {
+    @include imgsm();
+}
+
+.trabajo {
+    flex-grow: 1;
+    grid-row: 4;
+    @include incatr();
+}
+
+.parrf3sm {
+    @include parrfsm();
+}
+
+.img3 {
+    @include imgsm();
+}
