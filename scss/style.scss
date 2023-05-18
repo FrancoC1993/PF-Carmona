@@ -3,15 +3,16 @@
 
 /* reset */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* estilos generales */
 
 body {
-    background: linear-gradient(to bottom, #efb663, #f5cf7b,#fae792,#ffffaa);
+    background: linear-gradient(to bottom, #efb663, #f5cf7b, #fae792, #ffffaa);
 }
 
 header {
@@ -42,14 +43,15 @@ header {
     margin: 10px;
 }
 
-.nav-link{
+.nav-link {
     color: whitesmoke;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-  }
-  .navbar.navbar-expand-lg{
-    background: linear-gradient(to bottom, #09081f, #18172e,#27273d,#35364c,#44455b);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar.navbar-expand-lg {
+    background: linear-gradient(to bottom, #09081f, #18172e, #27273d, #35364c, #44455b);
     border-radius: 1rem;
-  }
+}
 
 .navbar-nav.me-auto.mb-2.mb-lg-0 {
     display: flex;

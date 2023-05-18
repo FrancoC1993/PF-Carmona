@@ -5,16 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Pagina de historia de una estudiante de Geologia desde sus inicios hacia su presente">
+    <meta name="keywords"
+        content="Geolgia, Paleontologia, Volcanes, Estudios Geologicos, Viajes Geologicos, Trabajo Geologico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <!--link de mi css-->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <title>GeoPL</title>
 </head>
 
 <body>
     <header class="centrado">
-        <img class="logo" src="../img/logogeolp.png"
+        <img class="logo" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" src="../img/logogeolp.png"
             alt="logo de la pagina, con un mundo y las iniciales de Geologia y Luciana Paileman">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -52,9 +57,9 @@
         <div>
             <h2 class="titulosm1">Inicios</h2>
             <div class="inicios">
-                <img class="img1" src="../img/panorámica1.jpg"
+                <img class="img1" data-aos="zoom-out-up" src="../img/panorámica1.jpg"
                     alt="imagen de Luciana caminando hacia el cerro donde realizo su primer salida de campo">
-                <p class="parrf1sm">Cuando llegó el momento de decidir su carrera universitaria, Luciana optó por
+                <p class="parrf1sm" data-aos="zoom-out-up">Cuando llegó el momento de decidir su carrera universitaria, Luciana optó por
                     estudiar Geología, y
                     se graduó luego de varios años por diferentes dificultades, tanto personales como de la carrera en
                     si. Durante sus
@@ -68,7 +73,7 @@
         <div>
             <h2 class="titulosm2">Carrera</h2>
             <div class="carrera">
-                <p class="parrf2sm">
+                <p class="parrf2sm" data-aos="zoom-out-up">
                     Luciana decidió que quería enfocar su carrera en la investigación científica y se matriculó en un
                     doctorado en Geología. Durante su doctorado, Luciana investigó la zona volcanica de Anecon Grande en
                     la meseta rionegrina y como se formaron estos durante millones de años.
@@ -78,7 +83,7 @@
                     A lo largo de su carrera, Luciana ha viajado por todo el mundo y ha contribuido a la comprensión de
                     los procesos geológicos que dan forma a nuestro planeta.
                 </p>
-                <img class="img2" src="../img/panorámica2.jpg"
+                <img class="img2" data-aos="zoom-out-up" src="../img/panorámica2.jpg"
                     alt="Luciana realizando un mapeo de rocas en su carrera hacia ser Licenciada en Geologia">
             </div>
         </div>
@@ -86,9 +91,9 @@
             <h2 class="titulosm1">Trabajo</h2>
             <div class="trabajo">
 
-                <img class="img3" src="../img/panoramica3.jpg"
+                <img class="img3" data-aos="zoom-out-up" src="../img/panoramica3.jpg"
                     alt="Luciana es realizando su primer trabajo sobre una barda en el campo">
-                <p class="parrf3sm">
+                <p class="parrf3sm" data-aos="zoom-out-up">
                     Luciana comenzó a trabajar en una empresa de exploración de petróleo y gas. Su trabajo consistía en
                     evaluar la presencia de recursos naturales y evaluar los riesgos geológicos asociados con la
                     exploración. También tuvo la oportunidad de trabajar en proyectos de exploración minera, lo que le
@@ -107,6 +112,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+    <!-- script AOS CSS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

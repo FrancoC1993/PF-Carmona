@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina que describe los diferente proyectos geologicos en latinoamerica">
+    <meta name="keywords" content="Geologia, Minas, Petroleo, Oro, Plata, Litio">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <!--link de mi css-->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <title>Proyectos - GeoPL</title>
 </head>
 
 <body>
     <header class="centrado">
-        <img class="logo" src="../img/logogeolp.png"
+        <img class="logo" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" src="../img/logogeolp.png"
             alt="logo de la pagina, con un mundo y las iniciales de Geologia y Luciana Paileman">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -96,19 +99,19 @@
             <div class="descripcion">
                 <h2 class="titulo">Descripcion de Rocas</h2>
                 <section class="infoproyecto">
-                    <img class="imgrocas" src="../img/roca1.png"
+                    <img class="imgrocas" data-aos="zoom-out-right" src="../img/roca1.png"
                         alt="Corte de roca tipo granito, color blanco con pintas rojizas y negras">
-                    <p>Granito es una roca ígnea gruesa con textura cristalina. Los minerales esenciales son el cuarzo
+                    <p data-aos="zoom-out-right">Granito es una roca ígnea gruesa con textura cristalina. Los minerales esenciales son el cuarzo
                         blanco, la ortoclasa rosa y la plagioclasa gris. Los minerales menores son biotita negra y
                         hornblenda.
                     </p>
-                    <img class="imgrocas" src="../img/roca2.png"
+                    <img class="imgrocas" data-aos="zoom-out-left" src="../img/roca2.png"
                         alt="Corte de roca tipo Silicato de calcio, color marron con vetas negras">
-                    <p>Una roca de silicato cálcico es una roca producida por alteración metaomática de las rocas
+                    <p data-aos="zoom-out-left">Una roca de silicato cálcico es una roca producida por alteración metaomática de las rocas
                         existentes en las que se encuentran minerales de silicato cálcico</p>
-                    <img class="imgrocas" src="../img/roca3.png"
+                    <img class="imgrocas" data-aos="zoom-out-right" src="../img/roca3.png"
                         alt="Corte de roca del tipo volcanico, color negro y poroso">
-                    <p>Las rocas volcánicas se componen de materiales que se han solidificado a partir del magma
+                    <p data-aos="zoom-out-right">Las rocas volcánicas se componen de materiales que se han solidificado a partir del magma
                         (material fundido que se encuentra en el interior de la Tierra) o de la lava (material fundido
                         que fluye sobre la superficie terrestre durante una erupción volcánica). Estos materiales se
                         enfrian y se solidifican en distintas condiciones, lo que da lugar a la formación de diferentes
@@ -118,16 +121,11 @@
             <div class="maps">
                 <h2 class="titulo">Ubicacion Geografica</h2>
                 <section class="imgmaps">
-                    <img src="../img/mapa1.jfif" alt="">
-                    <img src="../img/mapa1.jfif" alt="">
-                    <img src="../img/mapa1.jfif" alt="">
+                    <img src="../img/mapa1.jfif" data-aos="zoom-out-right" alt="imagen generica de un icono de mapa">
+                    <img src="../img/mapa1.jfif" data-aos="zoom-out-left" alt="imagen generica de un icono de mapa">
+                    <img src="../img/mapa1.jfif" data-aos="zoom-out-right" alt="imagen generica de un icono de mapa">
                 </section>
-                <!-- mapas a agregar -->
-                <!-- 
-                <map name=""></map>
-                <map name=""></map>
-                <map name=""></map>
-                 -->
+
             </div>
         </div>
     </main>
@@ -138,6 +136,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+    <!-- script AOS CSS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
